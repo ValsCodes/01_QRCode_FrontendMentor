@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
+<head role="styles">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -45,18 +45,20 @@
 </head>
 
 <body>
-  <div id="main-div" class="container justify-center bg-white w-80 p-4 rounded-2xl">
-    <div class="justify-center">
-      <img class="w-72 h-72 mx-auto rounded-xl" src="images/image-qr-code.png" />
+  <div role="main-content" id="main-div" class="container justify-center bg-white w-80 p-4 rounded-2xl">
+
+    <div role="main-image" class="justify-center">
+      <img class="w-72 h-72 mx-auto rounded-xl" src="images/image-qr-code.png" alt="QR Code Image" />
     </div>
 
-    <div class="text-center p-4 font-sans">
+    <div role="main-text" class="text-center p-4 font-sans">
       <h1 class="font-extrabold text-xl mt-2 mb-4">
         Improve your front-end skills by building projects
       </h1>
       <p class="text-sm font-semibold font-extrathin text-gray-400">Scan the QR code to visit
         Frontend Mentor and take your coding skills to the next level</p>
     </div>
+
   </div>
 </body>
 
